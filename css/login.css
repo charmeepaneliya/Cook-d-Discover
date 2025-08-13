@@ -1,0 +1,85 @@
+@media all and (min-width:320px ) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+body{
+    background: url(../img/6.jpg),rgba(0, 0, 0, 0.373);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 100vh;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+   
+} 
+
+.box h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.box{
+    backdrop-filter:blur(5px);
+    background-color: rgba(187, 242, 189, 0.241);
+    height: 580px;
+    width: 530px;
+    align-items: center;
+    position: absolute;
+    top:11%;
+    left:12%;
+    border-radius: 30%;
+    color: rgb(1, 74, 1);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.box:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+label{
+    font-weight: 700;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(197, 225, 197);
+    border: none;
+    color: rgb(0, 87, 0);
+    font-size: 17px;
+}
+
+.fp{
+    
+   
+    color:rgb(197, 225, 197);
+    text-decoration: none;
+}
+
+.btn{
+    /* background-color:rgb(3, 68, 2) ; */
+    background: linear-gradient(to right,rgb(1, 56, 1),rgb(1, 183, 1));
+    color: ghostwhite;
+    font-size: 20px;
+    width: 170px;
+    padding:4px 8px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 20px 0px 40px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: linear-gradient(to left,rgb(1, 56, 1),rgb(1, 183, 1));
+    /* background-color:rgb(208, 214, 219); */
+    /* color: rgb(11, 65, 1); */
+    color: ghostwhite;
+    box-shadow: rgb(0, 63, 5) 20px 0px 30px;
+    
+}  
+}
