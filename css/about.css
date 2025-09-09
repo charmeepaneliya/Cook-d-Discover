@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #bdd0bd;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(14, 26, 15, 0.529);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 0px;
+    backdrop-filter: blur(10px);
+}
